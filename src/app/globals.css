@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #0B1736;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E2E8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #00C9B1;
+  border-radius: 3px;
+}
+
+@layer components {
+  .section-heading {
+    @apply text-2xl md:text-4xl font-black mb-10 text-navy-900;
+  }
+  .teal-accent {
+    @apply text-teal;
+  }
+  .btn-primary {
+    @apply bg-forum-orange hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-black text-lg transition-colors inline-flex items-center gap-2;
+  }
+  .btn-secondary {
+    @apply bg-teal hover:bg-teal-dark text-navy-900 px-8 py-4 rounded-lg font-black text-lg transition-colors inline-flex items-center gap-2;
+  }
+  .card-light {
+    @apply bg-white rounded-xl p-6 shadow-sm border border-gray-100;
+  }
+  .form-label {
+    @apply block text-sm font-bold text-gray-700 mb-1.5;
+  }
+  .form-input {
+    @apply w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-teal focus:ring-2 focus:ring-teal/10 transition-colors;
+  }
+  .form-select {
+    @apply w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-gray-900 focus:outline-none focus:border-teal focus:ring-2 focus:ring-teal/10 transition-colors;
+  }
+  .form-textarea {
+    @apply w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-teal focus:ring-2 focus:ring-teal/10 transition-colors resize-none;
+  }
+}
