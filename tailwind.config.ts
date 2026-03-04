@@ -17,11 +17,11 @@ const config: Config = {
           600: "#1A3270",
         },
         teal: {
-          DEFAULT: "#00A86B",
-          light: "#00CC88",
-          dark: "#007A50",
+          DEFAULT: "#0097A7",
+          light: "#00BCD4",
+          dark: "#00838F",
         },
-        "forum-orange": "#D4A017",
+        "forum-orange": "#2A7A4E",
         "forum-gold": "#F5C518",
       },
       fontFamily: {
