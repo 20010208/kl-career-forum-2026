@@ -18,7 +18,7 @@ body {
   background: #E2E8F0;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1A5C38;
+  background: #FF6B35;
   border-radius: 3px;
 }
 
@@ -33,7 +33,7 @@ body {
     @apply bg-forum-orange hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-black text-lg transition-colors inline-flex items-center gap-2;
   }
   .btn-secondary {
-    @apply bg-teal hover:bg-teal-dark text-navy-900 px-8 py-4 rounded-lg font-black text-lg transition-colors inline-flex items-center gap-2;
+    @apply bg-[#2A7A4E] hover:bg-[#1A5C38] text-white px-8 py-4 rounded-lg font-black text-lg transition-colors inline-flex items-center gap-2;
   }
   .card-light {
     @apply bg-white rounded-xl p-6 shadow-sm border border-gray-100;
