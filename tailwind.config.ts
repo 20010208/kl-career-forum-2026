@@ -17,9 +17,9 @@ const config: Config = {
           600: "#1A3270",
         },
         teal: {
-          DEFAULT: "#4DB86A",
-          light: "#6ACA83",
-          dark: "#3D9E58",
+          DEFAULT: "#1A5C38",
+          light: "#2A7A4E",
+          dark: "#134530",
         },
         "forum-orange": "#FF6B35",
         "forum-gold": "#F5A623",
