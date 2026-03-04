@@ -367,7 +367,7 @@ export default function Home() {
       </section>
 
       {/* ── FAQ (light) ── */}
-      <section className="py-16 md:py-20 bg-gray-50" id="faq">
+      <section className="py-16 md:py-20 bg-gray-50 scroll-mt-20" id="faq">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="section-heading">FAQ</h2>
           <div className="space-y-4">
