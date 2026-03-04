@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "トップ" },
-  { href: "https://connection.com.my/event/", label: "企業の方へ" },
+  { href: "/companies", label: "企業の方へ" },
   { href: "/participants", label: "参加者の方へ" },
   { href: "/contact", label: "お問い合わせ" },
 ];
