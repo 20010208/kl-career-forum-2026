@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "トップ" },
-  { href: "/companies", label: "企業の方へ" },
+  { href: "https://connection.com.my/event/", label: "企業の方へ" },
   { href: "/participants", label: "参加者の方へ" },
   { href: "/contact", label: "お問い合わせ" },
 ];
@@ -45,12 +45,14 @@ export default function Header() {
 
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-2 flex-shrink-0">
-          <Link
-            href="/companies#entry"
+          <a
+            href="https://connection.com.my/event/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-forum-orange hover:bg-orange-600 text-white px-4 py-2 rounded-lg text-sm font-black transition-colors"
           >
             企業申込
-          </Link>
+          </a>
           <Link
             href="/participants#entry"
             className="bg-teal hover:bg-teal-dark text-navy-900 px-4 py-2 rounded-lg text-sm font-black transition-colors"
@@ -99,13 +101,15 @@ export default function Header() {
             </Link>
           ))}
           <div className="flex gap-2 pt-2 border-t border-gray-200">
-            <Link
-              href="/companies#entry"
+            <a
+              href="https://connection.com.my/event/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex-1 text-center bg-forum-orange text-white py-2.5 rounded-lg font-black text-sm"
               onClick={() => setIsOpen(false)}
             >
               企業申込
-            </Link>
+            </a>
             <Link
               href="/participants#entry"
               className="flex-1 text-center bg-teal text-navy-900 py-2.5 rounded-lg font-black text-sm"

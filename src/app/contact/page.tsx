@@ -76,12 +76,14 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-gray-500 text-sm mb-4">よくあるご質問はこちら：</p>
           <div className="flex flex-wrap gap-3">
-            <Link
-              href="/companies#faq"
+            <a
+              href="https://connection.com.my/event/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-100 hover:bg-gray-200 border border-gray-200 text-gray-600 hover:text-gray-900 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
               企業向け FAQ →
-            </Link>
+            </a>
             <Link
               href="/participants#faq"
               className="bg-gray-100 hover:bg-gray-200 border border-gray-200 text-gray-600 hover:text-gray-900 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
@@ -248,9 +250,9 @@ export default function ContactPage() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-4 justify-center">
-            <Link href="/companies#entry" className="btn-primary">
+            <a href="https://connection.com.my/event/" target="_blank" rel="noopener noreferrer" className="btn-primary">
               企業申込はこちら
-            </Link>
+            </a>
             <Link href="/participants#entry" className="btn-secondary">
               参加者申込はこちら
             </Link>

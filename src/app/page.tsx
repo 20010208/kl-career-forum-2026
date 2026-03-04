@@ -175,9 +175,9 @@ export default function Home() {
 
           {/* Buttons — absolute配置でメインテキストに影響しない */}
           <div className="absolute bottom-14 left-0 right-0 flex flex-wrap gap-10 justify-center">
-            <Link href="/companies#entry" className="btn-primary text-xl px-10 py-5">
+            <a href="https://connection.com.my/event/" target="_blank" rel="noopener noreferrer" className="btn-primary text-xl px-10 py-5">
               ▶ 企業として申し込む
-            </Link>
+            </a>
             <Link href="/participants#entry" className="btn-secondary text-xl px-10 py-5">
               ▶ 参加者として申し込む
             </Link>
@@ -420,9 +420,9 @@ export default function Home() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center mb-12">
-            <Link href="/companies#entry" className="btn-primary text-xl px-10 py-5">
+            <a href="https://connection.com.my/event/" target="_blank" rel="noopener noreferrer" className="btn-primary text-xl px-10 py-5">
               ▶ 企業として申込む
-            </Link>
+            </a>
             <Link href="/participants#entry" className="btn-secondary text-xl px-10 py-5">
               ▶ 参加者として申込む
             </Link>

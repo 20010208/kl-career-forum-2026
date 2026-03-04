@@ -17,12 +17,14 @@ export default function Footer() {
               クアラルンプール初開催のキャリアフォーラムです。
             </p>
             <div className="flex gap-3">
-              <Link
-                href="/companies#entry"
+              <a
+                href="https://connection.com.my/event/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-forum-orange hover:bg-orange-600 text-white px-4 py-2 rounded font-bold text-sm transition-colors"
               >
                 企業申込
-              </Link>
+              </a>
               <Link
                 href="/participants#entry"
                 className="bg-teal hover:bg-teal-dark text-navy-900 px-4 py-2 rounded font-bold text-sm transition-colors"
@@ -69,12 +71,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/companies"
+                <a
+                  href="https://connection.com.my/event/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-teal text-sm transition-colors"
                 >
                   企業の方へ
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
