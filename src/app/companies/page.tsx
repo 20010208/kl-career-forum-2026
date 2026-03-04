@@ -50,14 +50,17 @@ export default function CompaniesPage() {
             準備は最小限、コストはゼロ。先着10社限定のご参加をお待ちしています。
           </p>
           <div className="flex flex-wrap gap-4 items-center">
-            <a
-              href="https://connection.com.my/event/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              ▶ 今すぐ参加申込
-            </a>
+            <div className="flex flex-col items-start gap-1">
+              <a
+                href="https://connection.com.my/event/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                ▶ 今すぐ参加申込
+              </a>
+              <span className="text-white/70 text-xs">※ 外部サイトに移動します</span>
+            </div>
             <div className="text-gray-400 text-sm">
               <span className="text-forum-orange font-bold">申込締切：2026年4月10日（金）</span>
             </div>
@@ -144,7 +147,7 @@ export default function CompaniesPage() {
               ✓ 企業側のお申し込みは簡単です。複雑な手続きは一切ありません。
             </p>
           </div>
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center flex flex-col items-center gap-1">
             <a
               href="https://connection.com.my/event/"
               target="_blank"
@@ -153,6 +156,7 @@ export default function CompaniesPage() {
             >
               ▶ 企業として申し込む
             </a>
+            <span className="text-gray-500 text-xs">※ 外部サイトに移動します</span>
           </div>
         </div>
       </section>
