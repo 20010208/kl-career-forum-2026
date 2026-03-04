@@ -45,17 +45,14 @@ export default function Header() {
 
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-2 flex-shrink-0">
-          <div className="flex flex-col items-center gap-0.5">
-            <a
-              href="https://connection.com.my/event/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-forum-orange hover:bg-orange-600 text-white px-4 py-2 rounded-lg text-sm font-black transition-colors"
-            >
-              企業申込
-            </a>
-            <span className="text-gray-400 text-[10px]">※ 外部サイト</span>
-          </div>
+          <a
+            href="https://connection.com.my/event/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-forum-orange hover:bg-orange-600 text-white px-4 py-2 rounded-lg text-sm font-black transition-colors"
+          >
+            企業申込
+          </a>
           <Link
             href="/participants#entry"
             className="bg-teal hover:bg-teal-dark text-navy-900 px-4 py-2 rounded-lg text-sm font-black transition-colors"
@@ -104,18 +101,15 @@ export default function Header() {
             </Link>
           ))}
           <div className="flex gap-2 pt-2 border-t border-gray-200">
-            <div className="flex-1 flex flex-col items-center gap-0.5">
-              <a
-                href="https://connection.com.my/event/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full text-center bg-forum-orange text-white py-2.5 rounded-lg font-black text-sm"
-                onClick={() => setIsOpen(false)}
-              >
-                企業申込
-              </a>
-              <span className="text-gray-400 text-[10px]">※ 外部サイト</span>
-            </div>
+            <a
+              href="https://connection.com.my/event/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 text-center bg-forum-orange text-white py-2.5 rounded-lg font-black text-sm"
+              onClick={() => setIsOpen(false)}
+            >
+              企業申込
+            </a>
             <Link
               href="/participants#entry"
               className="flex-1 text-center bg-teal text-navy-900 py-2.5 rounded-lg font-black text-sm"
