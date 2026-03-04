@@ -418,9 +418,12 @@ export default function Home() {
               </a>
               <span className="text-white/70 text-xs">※ 外部サイトに移動します</span>
             </div>
-            <Link href="/participants#entry" className="btn-secondary text-xl px-10 py-5">
-              ▶ 参加者として申込む
-            </Link>
+            <div className="flex flex-col items-center gap-1">
+              <Link href="/participants#entry" className="btn-secondary text-xl px-10 py-5">
+                ▶ 参加者として申込む
+              </Link>
+              <span className="text-transparent text-xs select-none">_</span>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-4">
