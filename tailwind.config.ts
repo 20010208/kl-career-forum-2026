@@ -17,12 +17,12 @@ const config: Config = {
           600: "#1A3270",
         },
         teal: {
-          DEFAULT: "#0097A7",
-          light: "#00BCD4",
-          dark: "#00838F",
+          DEFAULT: "#4DB86A",
+          light: "#6ACA83",
+          dark: "#3D9E58",
         },
-        "forum-orange": "#2A7A4E",
-        "forum-gold": "#F5C518",
+        "forum-orange": "#FF6B35",
+        "forum-gold": "#F5A623",
       },
       fontFamily: {
         sans: ["var(--font-noto)", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif"],
