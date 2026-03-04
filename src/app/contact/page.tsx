@@ -77,7 +77,7 @@ export default function ContactPage() {
           <p className="text-gray-500 text-sm mb-4">よくあるご質問はこちら：</p>
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/#faq"
+              href="/companies#faq"
               className="bg-gray-100 hover:bg-gray-200 border border-gray-200 text-gray-600 hover:text-gray-900 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
               企業向け FAQ →

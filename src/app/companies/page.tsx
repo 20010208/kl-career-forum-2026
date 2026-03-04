@@ -162,7 +162,7 @@ export default function CompaniesPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-16 md:py-20 bg-gray-50">
+      <section className="py-16 md:py-20 bg-gray-50 scroll-mt-20" id="faq">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="section-heading">
             企業向け <span className="teal-accent">FAQ</span>
