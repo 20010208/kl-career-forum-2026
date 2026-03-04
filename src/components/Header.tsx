@@ -55,7 +55,7 @@ export default function Header() {
           </a>
           <Link
             href="/participants#entry"
-            className="bg-teal hover:bg-teal-dark text-navy-900 px-4 py-2 rounded-lg text-sm font-black transition-colors"
+            className="bg-teal hover:bg-teal-dark text-white px-4 py-2 rounded-lg text-sm font-black transition-colors"
           >
             参加者申込
           </Link>
@@ -112,7 +112,7 @@ export default function Header() {
             </a>
             <Link
               href="/participants#entry"
-              className="flex-1 text-center bg-teal text-navy-900 py-2.5 rounded-lg font-black text-sm"
+              className="flex-1 text-center bg-teal text-white py-2.5 rounded-lg font-black text-sm"
               onClick={() => setIsOpen(false)}
             >
               参加者申込
