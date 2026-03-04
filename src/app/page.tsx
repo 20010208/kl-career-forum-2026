@@ -123,7 +123,7 @@ const colorMap = {
     border: "border-t-4 border-teal",
     text: "text-teal",
     badge: "bg-teal/10 text-teal border border-teal/30",
-    label: "text-navy-900",
+    label: "text-white",
   },
   orange: {
     bar: "bg-forum-orange",
@@ -137,7 +137,7 @@ const colorMap = {
     border: "border-t-4 border-forum-gold",
     text: "text-amber-600",
     badge: "bg-amber-50 text-amber-700 border border-amber-200",
-    label: "text-navy-900",
+    label: "text-white",
   },
 };
 
